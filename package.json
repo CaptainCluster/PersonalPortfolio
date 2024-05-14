@@ -1,0 +1,14 @@
+{
+  "name": "personalportfolio",
+  "version": "1.0.0",
+  "description": "Ville Saloranta's personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ville Saloranta (CaptainCluster)",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
