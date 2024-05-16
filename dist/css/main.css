@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("/img/portrait.png");
+      background: url("/img/portrait/portrait.png");
       border-radius: 50%;
       border: solid 3px #b92f2f; }
   .menu .nav-item {
@@ -90,6 +90,9 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+.nav-item:nth-child(5) {
+  transition-delay: 0.5s; }
+
 * {
   box-sizing: border-box; }
 
@@ -101,7 +104,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/img/sharing2.png);
+    background: url(/img/core/sharing2.png);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -234,6 +237,82 @@ main {
 .highlight {
   color: #b92f2f; }
 
+.slideshow-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%; }
+
+slider {
+  display: block;
+  width: 60%;
+  height: 70%;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  position: absolute; }
+
+slider > * {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #1f1f1f;
+  animation: slide 12s infinite;
+  overflow: hidden; }
+
+slide:nth-child(1) {
+  left: 0%;
+  animation-delay: -1s;
+  background-image: url(/img/my_projects/NeovimConfig.png);
+  background-size: cover;
+  background-position: center; }
+
+slide:nth-child(2) {
+  left: 0%;
+  animation-delay: 2s;
+  background-image: url(/img/my_projects/25-5-clock.png);
+  background-size: cover;
+  background-position: center; }
+
+slide:nth-child(3) {
+  animation-delay: 5s;
+  background-image: url(/img/my_projects/bmi_calculator.png);
+  background-size: cover;
+  background-position: center; }
+
+slide:nth-child(4) {
+  left: 0%;
+  animation-delay: 8s;
+  background-image: url(/img/my_projects/markdown_previewer.png);
+  background-size: cover;
+  background-position: center; }
+
+slide p {
+  font-size: 70px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: #b92f2f; }
+
+@keyframes slide {
+  0% {
+    left: 100%;
+    width: 100%; }
+  5% {
+    left: 0%; }
+  25% {
+    left: 0%; }
+  30% {
+    left: -100%;
+    width: 100%; }
+  30.0001% {
+    left: -100%;
+    width: 0%; }
+  100% {
+    left: 100%;
+    width: 0%; } }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
@@ -263,7 +342,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(/img/portrait_small.png);
+      background: url(/img/portrait/portrait_small.png);
       width: 150px;
       height: 150px; }
   .about-info {

@@ -6,10 +6,9 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Welcome to Ville Saloranta's portfolio
-    </title>
+    <title>Project Slideshow</title>
 </head>
-<body id="bg-img">
+<body>
     <header>
         <div class="menu-btn">
             <div class="btn-line"></div>
@@ -22,7 +21,7 @@
                 <div class="portrait"></div>
             </div>
             <ul class="menu-nav">
-                <li class="nav-item current">
+                <li class="nav-item">
                     <a href="/dist/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
@@ -36,7 +35,7 @@
                         How To Reach Me
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item current">
                     <a href="/dist/slideshow.html" class="nav-link">
                         Projects Slideshow
                     </a>
@@ -45,32 +44,21 @@
         </nav>
     </header>
 
-    <main id="home">
-        <h1 class="lg-heading">
-            Ville
-            <span class="text-secondary">Saloranta</span> 
-        </h1>
-        <h2 class="sm-heading">
-            Student, Webmaster, Software Enthusiast
-        </h2>
-        <div class="icons">
-            <a href="#!">
-                <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
+    <main id="slideshow">
+        <div class="slideshow-container">
+            <slider>
+                <slide></slide>
+                <slide></slide>
+                <slide></slide>
+                <slide></slide>
+            </slider>
         </div>
     </main>
+
     <footer id="main-footer">
-        Copyright &copy; 
+        Copyright &copy;
     </footer>
+
     <script src="js/main.js"></script>
 </body>
 </html>

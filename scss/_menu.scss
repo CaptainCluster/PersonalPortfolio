@@ -95,7 +95,7 @@
         {
             width: 250px;
             height: 250px;
-            background: url("/img/portrait.png");
+            background: url("/img/portrait/portrait.png");
             border-radius: 50%;
             border: solid 3px $secondary-color;
         }
@@ -136,7 +136,7 @@
     }
 }
 
-@for $x from 1 through 4
+@for $x from 1 through 5
 {
     .nav-item:nth-child(#{$x})
     {
