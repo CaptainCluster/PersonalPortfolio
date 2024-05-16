@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("/dist/img/portrait/portrait.png");
+      background: url("../img/portrait/portrait.png");
       border-radius: 50%;
       border: solid 3px #b92f2f; }
   .menu .nav-item {
@@ -104,7 +104,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/core/sharing2.png);
+    background: url(../img/core/sharing2.png);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -264,27 +264,27 @@ slider > * {
 slide:nth-child(1) {
   left: 0%;
   animation-delay: -1s;
-  background-image: url(/dist/img/my_projects/NeovimConfig.png);
+  background-image: url(../img/my_projects/NeovimConfig.png);
   background-size: cover;
   background-position: center; }
 
 slide:nth-child(2) {
   left: 0%;
   animation-delay: 2s;
-  background-image: url(/dist/img/my_projects/25-5-clock.png);
+  background-image: url(../img/my_projects/25-5-clock.png);
   background-size: cover;
   background-position: center; }
 
 slide:nth-child(3) {
   animation-delay: 5s;
-  background-image: url(/dist/img/my_projects/bmi_calculator.png);
+  background-image: url(../img/my_projects/bmi_calculator.png);
   background-size: cover;
   background-position: center; }
 
 slide:nth-child(4) {
   left: 0%;
   animation-delay: 8s;
-  background-image: url(/dist/img/my_projects/markdown_previewer.png);
+  background-image: url(../img/my_projects/markdown_previewer.png);
   background-size: cover;
   background-position: center; }
 
@@ -342,7 +342,7 @@ slide p {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(/dist/img/portrait/portrait_small.png);
+      background: url(../img/portrait/portrait_small.png);
       width: 150px;
       height: 150px; }
   .about-info {
