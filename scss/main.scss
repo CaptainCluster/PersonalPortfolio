@@ -212,5 +212,9 @@ main
     height: 60px;
 }
 
+.highlight
+{
+    color: $secondary-color;
+}
 
 @import "mobile";

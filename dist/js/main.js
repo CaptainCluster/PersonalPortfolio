@@ -21,21 +21,45 @@ function menuFunctionality()
     {
         if(!showMenu)
         {
-            menuBtn.classList.add("close");
-            menu.classList.add("show");
-            menuNav.classList.add("show");
-            menuBranding.classList.add("show");
-            navItems.forEach(navItem => navItem.classList.add("show"));
+            addClasses();
             showMenu = true;
             return;
         }
+        removeClasses();
+        showMenu = false;
+    });
+
+    function addClasses()
+    {
+        menuBtn.classList.add("close");
+        menu.classList.add("show");
+        menuNav.classList.add("show");
+        menuBranding.classList.add("show");
+        navItems.forEach(navItem => navItem.classList.add("show"));
+    }
+
+    function removeClasses()
+    {
         menuBtn.classList.remove("close");
         menu.classList.remove("show");
         menuNav.classList.remove("show");
         menuBranding.classList.remove("show");
         navItems.forEach(navItem => navItem.classList.remove("show"));
-        showMenu = false;
-    });
+    }
+    findCurrentYear();
 }
+
+/**
+ * Automatically adding the current year
+ */
+function findCurrentYear()
+{
+    const copyrightElement = document.getElementById("main-footer");
+    if(copyrightElement)
+    {
+        copyrightElement.textContent += new Date().getFullYear(); 
+    }
+}
+
 
 menuFunctionality();
