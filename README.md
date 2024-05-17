@@ -2,7 +2,7 @@
 
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-This is a personal portfolio site I made. It is the main project as part of the *Software Development Skills: Front-End* anytime course hosted by **LUT University**. 
+This is a personal portfolio site I, Ville Saloranta, made. It is the main project as part of the *Software Development Skills: Front-End* anytime course hosted by **LUT University**. 
 
 ❓ Where to see the project?
 ---
