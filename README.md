@@ -4,6 +4,11 @@
 
 This is a personal portfolio site I, **Ville Saloranta**, made. It is the main project as part of the *Software Development Skills: Front-End* anytime course hosted by **LUT University**. 
 
+This repository contains the following:
+* The Project
+* Learning diary 
+* Links to seeing the project run & a video demonstration
+
 ❓ Where to see the project?
 ---
 You can see the project by clicking [this link](https://captaincluster.github.io/PersonalPortfolio/)
